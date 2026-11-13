@@ -3,7 +3,7 @@
 set -eu
 
 ARCH=$(uname -m)
-VERSION=$(pacman -Q opencode-desktop-bin | awk '{print $2; exit}') # example command to get version of application here
+VERSION=$(cat ./AppDir/bin/resources/opencode-cli.version)
 export ARCH VERSION
 export OUTPATH=./dist
 export ADD_HOOKS="self-updater.hook"
