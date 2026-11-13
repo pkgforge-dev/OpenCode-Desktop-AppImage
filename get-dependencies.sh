@@ -30,7 +30,7 @@ curl -sSfL "$URL" -o "/tmp/${DEB}"
 rm -rf /tmp/opencode-deb
 mkdir -p /tmp/opencode-deb
 cd /tmp/opencode-deb
-tar xf "/tmp/${DEB}"
+ar x "/tmp/${DEB}"
 tar xf data.tar.xz -C /
 
 mkdir -p "${ROOT_DIR}/AppDir/bin"
