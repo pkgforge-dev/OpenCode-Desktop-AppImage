@@ -1,25 +1,26 @@
 <div align="center">
 
-# TEMPLATE-AppImage 🐧
+# OpenCode Desktop AppImage 🐧
 
-[![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/TEMPLATE-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/TEMPLATE-AppImage/releases/latest)
-[![CI Build Status](https://github.com/pkgforge-dev/TEMPLATE-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/TEMPLATE-AppImage/releases/latest)
-[![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/TEMPLATE-AppImage)](https://github.com/pkgforge-dev/TEMPLATE-AppImage/releases/latest)
+[![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/OpenCode-Desktop-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/OpenCode-Desktop-AppImage/releases/latest)
+[![CI Build Status](https://github.com/pkgforge-dev/OpenCode-Desktop-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/OpenCode-Desktop-AppImage/releases/latest)
+[![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/OpenCode-Desktop-AppImage)](https://github.com/pkgforge-dev/OpenCode-Desktop-AppImage/releases/latest)
 
 <p align="center">
-  <img src="https://github.com/pkgforge-dev.png" width="128" />
+  <img src="https://github.com/pkgforge-dev.png" width="128" alt="pkgforge-dev" />
 </p>
-
 
 | Latest Stable Release | Upstream URL |
 | :---: | :---: |
-| [Click here](https://github.com/pkgforge-dev/TEMPLATE-AppImage/releases/latest) | [Click here](https://github.com/pkgforge-dev/Anylinux-AppImages) |
+| [AppImage](https://github.com/pkgforge-dev/OpenCode-Desktop-AppImage/releases/latest) | [OpenCode](https://github.com/anomalyco/opencode) |
 
 </div>
 
 ---
 
-AppImage made using [quick-sharun](https://github.com/pkgforge-dev/Anylinux-AppImages/blob/main/useful-tools/quick-sharun.sh), which makes it extremely easy to turn any binary into a portable package reliably without using containers or similar tricks. 
+OpenCode is an open-source AI coding agent.
+
+AppImage made using [quick-sharun](https://github.com/pkgforge-dev/Anylinux-AppImages/blob/main/useful-tools/quick-sharun.sh), which makes it extremely easy to turn any binary into a portable package reliably without using containers or similar tricks.
 
 **This AppImage bundles everything and it should work on any Linux distro, including old and musl-based ones.**
 
