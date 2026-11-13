@@ -16,4 +16,4 @@ get-debloated-pkgs --add-common --prefer-nano
 make-aur-package opencode-desktop-bin
 
 mkdir -p AppDir/bin
-cp -rv /opt/Opencode/* AppDir/bin
+cp -rv /usr/lib/opencode-desktop/* AppDir/bin
